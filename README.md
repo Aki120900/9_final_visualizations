@@ -1,13 +1,12 @@
-Visual Analysis of Earthquakes and Tsunamis in Japan (1925-2024).
+# Visual Analysis of Earthquakes and Tsunamis in Japan (1925-2024).
 
-Project Description:
+## Project Description:
 
 This project provides a comprehensive visual analysis of earthquakes and tsunamis in Japan over the past 100 years, from 1925 to 2024. 
 It includes a series of static and interactive visualizations that highlight the frequency, magnitude, and impacts of these natural disasters. 
 The visualizations aim to offer valuable insights for researchers, policymakers, and the general public, enhancing their understanding and preparedness for future seismic events.
 
-Table of Contents:
-- [Introduction](#introduction)
+## Table of Contents:
 - [Visualizations](#visualizations):
   - [Maximum Water Height of Tsunamis](#maximum-water-height-of-tsunamis-1927-2024)
   - [Geospatial Plot of Earthquake and Tsunami Occurrences](#geospatial-plot-of-earthquake-and-tsunami-occurrences-1925-2024)
@@ -21,7 +20,7 @@ Table of Contents:
   - [Interactive Visualization](#interactive-visualization-explore-japans-earthquake-history)
 
 
-9 Visualizations:
+## 9 Visualizations:
 
 1. Maximum Water Height of Tsunamis (1927-2024)
 This bar chart illustrates the maximum water height of tsunamis over the specified period, highlighting notable years with exceptionally high water heights.
@@ -51,11 +50,18 @@ This time series plot shows changes in earthquake magnitudes over time, analyzin
 This plot focuses on changes in tsunami severity over time, comparing trends with earthquake data.
 
 
-Data Sources:
+## Data Sources:
 All data used in these visualizations were sourced from the [NOAA Hazards database](https://www.ngdc.noaa.gov/hazel/view/hazards/earthquake/search) for earthquakes and the [NOAA Tsunamis database](https://www.ngdc.noaa.gov/hazel/view/hazards/tsunami/event-search) for tsunamis.
 
-Usage:
-To view the visualizations, clone this repository and open `index.html` in your preferred web browser. Also, download images to be able to see them.
 
-Otherwise, you can check a website: https://aki120900.github.io/9_final_visualizations/
+Check a website: https://aki120900.github.io/9_final_visualizations/ to see ready visualizations.
+
+## Usage:
+To view the visualizations, clone this repository and open `index.html` in your preferred web browser. The interactive visualization requires internet access to load the D3.js library.
+
+```bash
+git clone https://github.com/yourusername/earthquakes-tsunamis-japan.git
+cd earthquakes-tsunamis-japan
+open index.html
+
 
