@@ -57,5 +57,5 @@ All data used in these visualizations were sourced from the [NOAA Hazards databa
 Usage:
 To view the visualizations, clone this repository and open `index.html` in your preferred web browser. Also, download images to be able to see them.
 
-Otherwise, you can check a website: https://github.com/Aki120900/9_final_visualizations 
+Otherwise, you can check a website: https://aki120900.github.io/9_final_visualizations/
 
